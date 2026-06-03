@@ -1,0 +1,18 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0F8C89"/>
+      <stop offset="1" stop-color="#075C59"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1024" height="1024" rx="200" fill="url(#bg)"/>
+  <!-- onda (acento) -->
+  <path d="M168,792 Q286,690 404,792 T640,792 T856,792" fill="none"
+        stroke="#79E8DF" stroke-width="36" stroke-linecap="round"/>
+  <!-- nota: corchea -->
+  <ellipse cx="430" cy="606" rx="112" ry="84" transform="rotate(-20 430 606)" fill="#FFFFFF"/>
+  <line x1="530" y1="592" x2="530" y2="236" stroke="#FFFFFF" stroke-width="34" stroke-linecap="round"/>
+  <path d="M530,236
+           C 700,282 726,430 602,520
+           C 672,416 640,332 530,344 Z" fill="#FFFFFF"/>
+</svg>

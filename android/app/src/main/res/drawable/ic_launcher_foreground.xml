@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="1024"
+    android:viewportHeight="1024">
+    <!-- recentra el contenido (centro real ~512,574) y lo escala a la zona segura -->
+    <group
+        android:pivotX="512"
+        android:pivotY="574"
+        android:scaleX="0.66"
+        android:scaleY="0.66"
+        android:translateY="-62">
+        <!-- onda (acento) -->
+        <path android:strokeColor="#79E8DF" android:strokeWidth="36"
+            android:strokeLineCap="round"
+            android:pathData="M168,792 Q286,690 404,792 T640,792 T856,792"/>
+        <!-- cabeza de la nota (elipse rotada) -->
+        <group android:pivotX="430" android:pivotY="606" android:rotation="-20">
+            <path android:fillColor="#FFFFFF"
+                android:pathData="M318,606 a112,84 0 1,0 224,0 a112,84 0 1,0 -224,0 Z"/>
+        </group>
+        <!-- plica -->
+        <path android:strokeColor="#FFFFFF" android:strokeWidth="34"
+            android:strokeLineCap="round"
+            android:pathData="M530,592 L530,236"/>
+        <!-- corchete -->
+        <path android:fillColor="#FFFFFF"
+            android:pathData="M530,236 C700,282 726,430 602,520 C672,416 640,332 530,344 Z"/>
+    </group>
+</vector>
